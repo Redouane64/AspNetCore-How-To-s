@@ -1,0 +1,17 @@
+﻿@model (string title, string content)
+@{
+    ViewData["Title"] = "UploadResult";
+}
+
+<h1>Upload Result</h1>
+
+<div>
+    <div>
+        <h3>Title:</h3>
+        <h5>@Model.title</h5>
+    </div>
+    <div>
+        <h3>Contents:</h3>
+        <textarea>@Model.content</textarea>
+    </div>
+</div>
